@@ -1,0 +1,31 @@
+{
+  "name": "windows-services",
+  "version": "0.0.2",
+  "description": "Package to manage all services features(create, delete, start, stop) with configurations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemavidal/node-windows-service.git"
+  },
+  "keywords": [
+    "node",
+    "windows",
+    "service"
+  ],
+  "author": "Hemã Vidal <hemavidal@gmail.com> (https://github.com/hemavidal)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemavidal/node-windows-service/issues"
+  },
+  "homepage": "https://github.com/hemavidal/node-windows-service#readme",
+  "dependencies": {
+    "config": "^1.26.2",
+    "node-windows": "^0.1.14"
+  },
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
