@@ -1,11 +1,13 @@
 # Node Windows Services
 
 This project is used to create windows service for you custom project.
-It conbines [node-windows](https://github.com/coreybutler/node-windows) with [config](https://github.com/lorenwest/node-config) to create a configurated windows service.
-So you can create a service combined with a config/default.json, see (config) documentation, to prevent node-windows code duplication.
+It combines [node-windows](https://github.com/coreybutler/node-windows) with [config](https://github.com/lorenwest/node-config) to create a configurated windows service.
+
+So you can create a service combined with a config/default.json, see [config](https://github.com/lorenwest/node-config/wiki) documentation, to prevent node-windows code duplication.
 
 ## Examples:
 Without windows-services:
+
 Project-01:
 ```javascript
 
